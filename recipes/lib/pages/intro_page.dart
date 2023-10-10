@@ -8,19 +8,19 @@ class IntroPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Receipes'),
-        backgroundColor: Colors.teal,
+        backgroundColor: const Color.fromARGB(255, 226, 226, 226),
         centerTitle: true,
         elevation: 0,
       ),
       body: Container(
         alignment: Alignment.center,
         padding: const EdgeInsets.all(32),
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           image: DecorationImage(
               image: AssetImage('lib/images/icons/mixing.png'),
               fit: BoxFit.cover),
         ),
-        child: const Text('My Receipes'),
+        child: const Text('My Helllo'),
       ),
     );
   }
